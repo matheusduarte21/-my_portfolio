@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>meu portfólio 💻</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container-header">
+            <div class="container-name"> Matheus Duarte /></div>
+            <div class="container-left">
+                <div class="menu-btn">
+                    <i class="fa fa-bars fa-2x" style="font-size: 30px;" onclick="ShowNavBar()" ></i>
+                </div>
+                <ul class="header-display">
+                    <li><a href="#sobre-mim" onclick="scrollToSection(); return false;">Sobre Mim</a></li>
+                    <li><a href="#projetos" onclick="scrollToSectionProjetos(); return false;">Projetos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+        <div class="container cell">
+                <div class="content-left">
+                    <div id="nome"></div>
+                    <div class="title">Techs:</div>
+                    <div class="content-left-two">
+                        <div class="html5">
+                            <img src=".//images-techs/logo-html-5-256.png" alt="">
+                        </div>
+                        <div class="css3">
+                            <img src=".//images-techs/logo-css-3-256.png" alt="">
+                        </div>
+                        <div class="Javascript">
+                            <img src=".//images-techs/logo-javascript-icon-256.png" alt="">
+                        </div>
+                        <div class="java">
+                            <img src=".//images-techs/logo-java-256.png" alt="">
+                        </div>
+                        <div class="typescript">
+                            <img src=".//images-techs/typescript-256.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <div class="content-rigth">
+                <img id="img-selfie" src="./images/profile-pic (6).png" />
+                <div class="container-contact">
+                    <div class="container-contact-img">
+                        <div class="img-container" id="img-contact">
+                            <div class="git">
+                                <a href="https://github.com/matheusduarte21" target="_blank">
+                                    <img src=".//images-contact/github (1).png"/>
+                                </a>
+                            </div>
+                            <div class="IN">
+                                <a href="https://www.linkedin.com/in/matheus-duarte-786bb5239/" target="_blank">
+                                    <img src=".//images-contact/linkedin (1).png"/>
+                                </a>
+                            </div>
+                            <div class="insta">
+                                <a href="https://www.instagram.com/theuz_duarte_/" target="_blank">
+                                    <img src="./images-contact/instagram (4).png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-two" id="sobre-mim">
+                <div class="content-sobre-mim-img"></div>
+            <div class="content-sobre-mim">
+                <div class="container-principal">
+                    <div class="title-dev">
+                        <span class="back-title-dev">Desenvolvedor</span> <span class="title-dev-front-end">Front-end</span> 💻 
+                    </div>
+                    <div class="sub-title">
+                        Sou um Desenvolvedor Front-end com experiências em <span class="back-sub-title">HTML, CSS, JAVASCRIPT, TYPESCRIPT E JAVA</span>
+                    </div>
+                    <div class="sobre-mim">
+                        Meu nome é Matheus Duarte, tenho 20 anos. Atualmente estudo ADS e e também faço curso de programação através da internet. No meu tempo livre eu estudo programação, o meu maior sonho é conquistar uma vaga na área de tecnologia, venho a 1 ano estudando e me esforçando para conseguir uma vaga na área que eu tanto quero, atualmente estou estudando JAVA. Sempre estou tentando aprender mais um pouco e tentando ser atualizado.
+                    </div>
+                    <div class="title-curriculo">
+                        Abaixo está meu <span class="curriculo">Curriculo</span> para downloado
+                    </div>
+                    <div class="container-button"><button id="btnDownload">Curriculo</button></div>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="container-three" id="projetos">
+            <div class="title-project">PROJETOS</div>
+
+            <div class="container-cards">
+                <div class="card">
+                    <div class="img-project">
+                        <img src=".//images/Captura de tela 2023-06-03 214733.png" />
+                    </div>
+                    <div class="title-do-project">
+                        Pokemon
+                    </div>
+                    <div class="sub-title-project">foi usado uma api de pokemons para treinar meu Javascript</div>
+                    <div class="btn-links">
+                        <a id="cod" href="https://sitemypokeminapi.netlify.app/" target="_blank">Abrir site</a>
+                         <a href="https://github.com/matheusduarte21/POKEMON-Api.git" target="_blank" id="git" >git</a> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-project">
+                        <img src=".//images/Captura de tela 2023-06-03 211044.png" />
+                    </div>
+                    <div class="title-do-project">
+                        Jogo da velha
+                    </div>
+                    <div class="sub-title-project">feito em quase 100% de javascript usando muita lógica </div>
+                    <div class="btn-links">
+                        <a id="cod" href="https://jogadavelha.netlify.app/" target="_blank">Abrir site</a>
+                        <a href="https://github.com/matheusduarte21/Jogo-da-velha" target="_blank" id="git">git</a> 
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="img-project">
+                        <img src=".//images/Captura de tela 2023-06-03 211608.png" />
+                    </div>
+                    <div class="title-do-project">
+                       Site de filmes
+                    </div>
+                    <div class="sub-title-project">Projeto feito por mim usando uma API de filmes e uma tela de login </div>
+                    <div class="btn-links">
+                        <a id="cod" href="">Abrir site</a>
+                        <a href="https://github.com/matheusduarte21/Site-de-filmes-api" target="_blank" id="git">git</a> 
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="img-project">
+                        <img src=".//images/Captura de tela 2023-06-03 212013.png" />
+                    </div>
+                    <div class="title-do-project">
+                        App de Pizza
+                    </div>
+                    <div class="sub-title-project">App de pizzaria funcional com muito detalhes(apenas interface)</div>
+                    <div class="btn-links">
+                        <a id="cod" href="https://pizzariaapp.netlify.app/">Abrir site</a>
+                        <a href="https://github.com/matheusduarte21/app_pizzaria" target="_blank" id="git">git</a> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-project">
+                        <img src=".//images/Captura de tela 2023-06-04 181740.png" />
+                    </div>
+                    <div class="title-do-project">
+                        Quiz
+                    </div>
+                    <div class="sub-title-project">Criei minha propria API e criei um quiz de perguntas</div>
+                    <div class="btn-links">
+                        <a id="cod" href="https://quizjavascript21.netlify.app/" target="_blank">Abrir site</a>
+                        <a href="https://github.com/matheusduarte21/POKEMON-Api.git" target="_blank" id="git">git</a> 
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
