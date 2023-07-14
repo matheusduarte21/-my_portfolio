@@ -377,7 +377,8 @@ nav .menu-btn i{
         left: -100%;
         background-color:#ffffffe7;
         color: #000;
-        height: 50vh;
+        height: 30vh;
+        border-radius: 20px;
         width: 100%;
         text-align: center;
         display: block;
