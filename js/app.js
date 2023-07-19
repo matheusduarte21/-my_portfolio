@@ -50,7 +50,7 @@ function ShowNavBar(){
   
     var link = document.createElement("a");
     link.href = url;
-    link.download = "curriculoTech.pdf"; 
+    link.download = "MATHEUS_DUARTE_CV.pdf"; 
     link.target = "_blank";
     link.click();
   });
