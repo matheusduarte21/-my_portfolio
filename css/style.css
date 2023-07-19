@@ -60,6 +60,15 @@ nav .menu-btn i{
     font-weight: 800;
 }
 
+.container-header.fixed{
+    border-bottom: 1px solid #ffffff0f;
+background-color: #222;
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .container-left{
    display: flex;
    font-size: 1.3rem;
@@ -105,7 +114,7 @@ nav .menu-btn i{
 }
 
 .content-rigth img {
-    height: 350px;
+    height: 315px;
 }
 
 #img-selfie{
@@ -407,7 +416,7 @@ nav .menu-btn i{
         margin: 20px;
     }
     .title-dev{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .sub-title{
         font-size: 1.1rem;
